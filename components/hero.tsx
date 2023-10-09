@@ -21,7 +21,7 @@ import {
 export default function Hero() {
   return (
     <>
-      <section className="relative w-[100%] sm:items-center sm:justify-center bg-[#FEF6F3] border border-black">
+      <section className="relative sm:items-center sm:justify-center bg-[#FEF6F3] border border-black overflow-hidden">
         <div className="flex flex-col sm:flex-row relative sm:mt-[5rem]">
           <div className="flex flex-col items-center justify-center sm:items-end sm:w-1/2">
             <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-9xl font-semibold text-center sm:text-left my-10 ">
@@ -56,9 +56,69 @@ export default function Hero() {
           </h1>
         </div>
       </section>
-      <section>HELO</section>
-      <section>
-        <Accordion className="w-[50rem]" type="single" collapsible>
+      <section className="w-[75vw] flex flex-col sm:flex-row items-center justify-center">
+        <div className="flex flex-col items-center justify-center">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-semibold mb-10 text-center">
+            Why choose us?
+          </h1>
+
+          <div className="flex flex-col sm:flex-row gap-6 max-w-[75%]">
+            <Card className="w-[75vw] sm:w-[25vw] ">
+              <CardHeader>
+                <CardTitle>Card Title</CardTitle>
+                <CardDescription>Card Description</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <p>Card Content</p>
+              </CardContent>
+              <CardFooter>
+                <p>Card Footer</p>
+              </CardFooter>
+            </Card>
+
+            <Card className="w-[75vw] sm:w-[25vw]">
+              <CardHeader>
+                <CardTitle>Card Title</CardTitle>
+                <CardDescription>Card Description</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <p>Card Content</p>
+              </CardContent>
+              <CardFooter>
+                <p>Card Footer</p>
+              </CardFooter>
+            </Card>
+
+            <Card className="w-[75vw] sm:w-[25vw]">
+              <CardHeader>
+                <CardTitle>Card Title</CardTitle>
+                <CardDescription>Card Description</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <p>Card Content</p>
+              </CardContent>
+              <CardFooter>
+                <p>Card Footer</p>
+              </CardFooter>
+            </Card>
+
+            <Card className="w-[75vw] sm:w-[25vw]">
+              <CardHeader>
+                <CardTitle>Card Title</CardTitle>
+                <CardDescription>Card Description</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <p>Card Content</p>
+              </CardContent>
+              <CardFooter>
+                <p>Card Footer</p>
+              </CardFooter>
+            </Card>
+          </div>
+        </div>
+      </section>
+      <section className="w-[75vw] sm:w-[25vw]">
+        <Accordion type="single" collapsible>
           <AccordionItem value="item-1">
             <AccordionTrigger>Is it accessible?</AccordionTrigger>
             <AccordionContent>

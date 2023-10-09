@@ -24,14 +24,6 @@ export default function Nav() {
             );
           })}
         </ul>
-        <div className="py-5 flex flex-row gap-4 mr-4">
-          <Link href="/contact">
-            <span>Contact</span>
-          </Link>
-          <Link href="/">
-            <span>Sign Up</span>
-          </Link>
-        </div>
       </nav>
     </section>
   );
