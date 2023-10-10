@@ -1,13 +1,13 @@
-import Conor from "/Conor.png";
-import George from "/GSP.png";
-import Jon from "/Jon.png";
-import Cardio from "/cardio.png";
-import Strength from "/strength.png";
-import Yoga from "/yoga.png";
-import Cycling from "/cycling.png";
-import Swim from "/swim.png";
-import Zumba from "/zumba.png";
-import HIIT from "/hiit.png";
+import Conor from "@/images/Conor.png";
+import George from "@/images/GSP.png";
+import Jon from "@/images/Jon.png";
+import Cardio from "@/images/cardio.png";
+import Strength from "@/images/strength.png";
+import Yoga from "@/images/yoga.png";
+import Cycling from "@/images/cycling.png";
+import Swim from "@/images/swim.png";
+import Zumba from "@/images/zumba.png";
+import HIIT from "@/images/hiit.png";
 import { GrFavorite, GrGroup, GrRun, GrSchedules } from "react-icons/gr";
 import React from "react";
 

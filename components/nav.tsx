@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import { navLinks } from "@/lib/data";
 import Link from "next/link";
-import Banner from "../public/Banner.png";
+import Banner from "@/images/Banner.png";
 import Image from "next/image";
 import { CgMenuGridO } from "react-icons/cg";
 
