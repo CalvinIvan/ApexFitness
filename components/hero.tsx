@@ -68,7 +68,7 @@ export default function Hero() {
         id="choose"
         className="mt-[5rem] sm:max-w-4xl w-full sm:pt-0 sm:mb-0 sm:scroll-mt-[4rem] scroll-mt-[5rem]"
       >
-        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-semibold mb-10 text-center">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-semibold mb-10 text-center z-[999]">
           Why choose us?
         </h1>
 
