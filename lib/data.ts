@@ -3,11 +3,11 @@ import George from "@/images/GSP.png";
 import Jon from "@/images/Jon.png";
 import Cardio from "@/images/cardio.png";
 import Strength from "@/images/strength.png";
-import Yoga from "@/images/yoga.png";
+import Yoga from "@/images/Yoga.png";
 import Cycling from "@/images/cycling.png";
-import Swim from "@/images/swim.png";
+import Swim from "@/images/Swim.png";
 import Zumba from "@/images/zumba.png";
-import HIIT from "@/images/hiit.png";
+import HIIT from "@/images/HIIT.png";
 import { GrFavorite, GrGroup, GrRun, GrSchedules } from "react-icons/gr";
 import React from "react";
 

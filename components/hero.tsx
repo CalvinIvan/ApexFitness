@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import Runner from "@/images/Runner.png";
+import Runner from "@/images/runner.png";
 import Image from "next/image";
 import Link from "next/link";
 import { heroData, trainersData } from "@/lib/data";
