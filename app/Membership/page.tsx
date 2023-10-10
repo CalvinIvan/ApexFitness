@@ -107,6 +107,12 @@ export default function Membership() {
             </Card>
           </div>
         </div>
+        <h1 className="mt-[5rem] text-gray-700 text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-medium mb-10 text-center">
+          Check out some of our{" "}
+          <span className="text-red-500 hover:text-red-300 transition">
+            <Link href="/Classes">classes!</Link>
+          </span>
+        </h1>
       </div>
     </section>
   );

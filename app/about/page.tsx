@@ -1,31 +1,26 @@
-import { humbleBeginningsData } from "@/lib/data";
+import { about, humbleBeginningsData } from "@/lib/data";
 import React from "react";
 import Alex from "@/public/Alex.png";
 import Image from "next/image";
 
 export default function About() {
   return (
-    <section className="flex flex-col items-center justify-center  bg-[#F8F8F8]">
-      <div className="flex flex-col mt-[5rem] w-3/4 items-center">
-        <h1 className="text-3xl sm:text-xl md:text-3xl lg:text-4xl xl:text-5xl font-semibold mb-10 text-center text-gray-700">
-          Humble Beginnings 🌱
-        </h1>
-        <div className="flex flex-col sm:flex-row justify-center">
-          <div className="flex flex-col w-3/2 sm:w-1/2 items-center justify-center text-gray-600 mb-20">
-            <p className="">{humbleBeginningsData[0]}</p>
-            <p className="mt-5">{humbleBeginningsData[1]}</p>
-            <p className="mt-5">{humbleBeginningsData[2]}</p>
-            <p className="mt-5">{humbleBeginningsData[3]}</p>
-            <p className="mt-5">{humbleBeginningsData[4]}</p>
-          </div>
-          <div className="flex flex-col mt-[5rem] mb-[5rem] ml-[5rem]">
-            <Image
-              src={Alex}
-              alt="Alex"
-              className="h-[20] sm:h-[40rem] w-auto rounded-lg shadow shadow-black"
-            />
-          </div>
-        </div>
+    <section className="flex flex-col items-center justify-center bg-[#F8F8F8] mb-24">
+      <h1 className="text-lg md:text-xl lg:text-4xl xl:text-6xl font-semibold text-gray-700 mt-[5rem] text-start">
+        About Us
+      </h1>
+      <div className="bg-red-500 pt-[0.025rem] sm:mt-5 h-1 w-1/3 rounded-full bg-opacity-50"></div>
+      <div className="flex flex-col mt-[1rem] md:w-3/4 items-center">
+        {about.map((item) => {
+          return (
+            <ul key={item.statement} className="flex flex-col w-3/4">
+              <h1 className="text-lg md:text-xl lg:text-2xl xl:text-3xl font-semibold mt-8 mb-4 text-start">
+                {item.statement}
+              </h1>
+              <p>{item.response}</p>
+            </ul>
+          );
+        })}
       </div>
     </section>
   );

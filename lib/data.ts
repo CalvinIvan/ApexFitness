@@ -36,6 +36,29 @@ export const navLinks = [
     
 ] as const;
 
+export const about = [
+    {
+        statement: "History and Background:",
+        response: "Founded by fitness enthusiast Alex Mercer, Apex Fitness emerged from humble beginnings. Driven by a passion for fitness and a desire to make a difference, Alex transformed his own life through dedication and hard work. His journey inspired the creation of Apex Fitness, a place where dreams meet determination, and where individuals of all ages and backgrounds can rewrite their stories.",
+    },
+    {
+        statement: "Values and Philosophy:",
+        response: "At Apex Fitness, we are guided by core values of dedication, community, and inclusivity. We believe in fostering a supportive environment where every member is valued, respected, and encouraged. Our philosophy revolves around holistic well-being, focusing not just on physical fitness, but also mental strength and emotional balance."    
+    },
+    {
+        statement: "Why Us?",
+        response: "Our team of certified trainers and expert staff are dedicated to your success. With diverse expertise and a shared passion for fitness, they are here to guide you every step of the way. Personalized attention and expert guidance are the cornerstones of our approach, ensuring that you receive the best possible support on your fitness journey.",
+    },
+    {
+        statement: "Facility and Amenities:",
+        response: "Apex Fitness boasts a modern facility equipped with a wide range of high-quality equipment, spacious workout areas, luxurious locker rooms, and rejuvenating showers. We offer additional amenities such as a juice bar, sauna, and comfortable lounge areas to enhance your overall gym experience.",
+    },
+    {
+        statement: "Community Engagement:",
+        response: "Committed to giving back, Apex Fitness actively engages with the local community. We sponsor events, support charitable initiatives, and collaborate with local businesses to promote health and wellness in our neighborhood. Together, we strive to make a positive impact beyond the walls of our gym.",
+    },
+   
+]
 
 export const heroData = [
     {

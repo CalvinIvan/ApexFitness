@@ -40,19 +40,19 @@ export default function Hero() {
               Your Limits
             </h1>
             <div className="flex flex-row gap-x-5">
-              <div className="text-white text-sm md:text-md lg:text-lg lg:px-2 py-2 px-1 rounded-full bg-[#FD6343]">
+              <div className="text-white text-sm md:text-md lg:text-lg lg:px-2 py-2 px-2 rounded-xl bg-[#FD6343]">
                 <Link href="/Membership">
                   <span>Get Started</span>
                 </Link>
               </div>
-              <div className="text-white text-sm md:text-md lg:text-lg lg:px-2 py-2 px-1 rounded-full bg-[#FD6343]">
+              <div className="text-white text-sm md:text-md lg:text-lg lg:px-2 py-2 px-2 rounded-xl bg-[#FD6343]">
                 <a href="#choose">
                   <span>Learn More</span>
                 </a>
               </div>
             </div>
           </div>
-          <div className="flex justify-start items-center sm:w-1/5 sm:scale-[2] sm:mt-[20rem] md:mt-[10rem] md:scale-[2] lg:scale-[1.5] lg:mr-[25rem]">
+          <div className="flex justify-start items-center sm:w-1/5 sm:scale-[2] sm:mt-[20rem] md:mt-[10rem] md:scale-[2] lg:scale-[1.5] lg:mr-[25rem] border-r-8 border-gray-700 rounded-full">
             <Image
               src={Runner}
               alt="Picture of the author"
