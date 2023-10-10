@@ -1,10 +1,10 @@
 "use client";
 import React from "react";
-import Runner from "@/public/runner.png";
+import Runner from "../public/runner.png";
 import Image from "next/image";
 import Link from "next/link";
 import { heroData, trainersData } from "@/lib/data";
-import Convince from "@/public/Convince.png";
+import Convince from "../public/Convince.png";
 import { TbTreadmill, TbFreeRights } from "react-icons/tb";
 import { Accordion, AccordionItem } from "@nextui-org/react";
 
