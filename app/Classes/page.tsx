@@ -16,6 +16,7 @@ export default function Classes() {
             >
               <CardHeader className="flex items-center justify-center mt-5">
                 <Image
+                  fetchPriority="high"
                   src={item.image.src}
                   width={300}
                   height={300}
