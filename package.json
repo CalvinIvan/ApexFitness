@@ -10,11 +10,13 @@
   },
   "dependencies": {
     "@next/font": "^13.5.4",
+    "@nextui-org/react": "^2.1.13",
     "@radix-ui/react-accordion": "^1.1.2",
     "@types/axios": "^0.14.0",
     "axios": "^1.5.1",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.0.0",
+    "framer-motion": "^10.16.4",
     "lucide-react": "^0.284.0",
     "next": "13.5.4",
     "react": "^18",
