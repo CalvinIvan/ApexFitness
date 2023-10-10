@@ -3,7 +3,7 @@ import React from "react";
 import Runner from "@/public/runner.png";
 import Image from "next/image";
 import Link from "next/link";
-import { faq, heroData, trainersData } from "@/lib/data";
+import { heroData, trainersData } from "@/lib/data";
 import Convince from "@/public/Convince.jpeg";
 import { TbTreadmill, TbFreeRights } from "react-icons/tb";
 import { Accordion, AccordionItem } from "@nextui-org/react";
@@ -35,17 +35,17 @@ export default function Hero() {
       <section className="relative w-full min-h-screen sm:items-center sm:justify-center bg-[#FEF6F3] scroll-mt-[105rem]">
         <div className="flex flex-col sm:flex-row relative sm:mt-[5rem] mt-[5rem]">
           <div className="flex flex-col items-center justify-center sm:items-start sm:w-1/2 sm:ml-[2rem] sm:mt-[20rem] md:mt-[15rem] md:ml-[5rem] lg:ml-[2rem]">
-            <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-9xl font-semibold text-center sm:text-left my-10 ">
+            <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-9xl font-semibold text-center sm:text-left my-10 text-gray-700">
               Surpass <br />
               Your Limits
             </h1>
             <div className="flex flex-row gap-x-5">
-              <div className="text-white text-sm md:text-md lg:text-lg lg:px-2 py-2 px-1 rounded-xl bg-[#FD6343]">
+              <div className="text-white text-sm md:text-md lg:text-lg lg:px-2 py-2 px-1 rounded-full bg-[#FD6343]">
                 <Link href="/Membership">
                   <span>Get Started</span>
                 </Link>
               </div>
-              <div className="text-white text-sm md:text-md lg:text-lg lg:px-2 py-2 px-1 rounded-xl bg-[#FD6343]">
+              <div className="text-white text-sm md:text-md lg:text-lg lg:px-2 py-2 px-1 rounded-full bg-[#FD6343]">
                 <a href="#choose">
                   <span>Learn More</span>
                 </a>
@@ -124,12 +124,12 @@ export default function Hero() {
               </div>
             </div>
           </div>
-          <div className="flex flex-col gap-x-5 lg:mt-16 lg:w-1/2 sm:w-3/4 sm:mt-5 md:mt-5 mt-[15rem] md:mb-20">
+          <div className="flex flex-col gap-x-5 lg:mt-16 lg:w-3/4 sm:w-3/4 sm:mt-5 md:mt-5 mt-[15rem] md:mb-20">
             <div className="flex flex-row">
               <div className="text-5xl">
                 <TbTreadmill />
               </div>
-              <p className="text-sm/[2] leading-tight px-2">
+              <p className="md:text-sm/[2] lg:text-lg/[2] leading-tight px-2">
                 State-of-the-art fitness equipment outfitted with cutting-edge
                 technology and innovative features, engineered to optimize your
                 workout experience and enhance your overall performance.
@@ -139,7 +139,7 @@ export default function Hero() {
               <div className="text-5xl">
                 <TbFreeRights />
               </div>
-              <p className="text-sm/[2] leading-tight px-2">
+              <p className="md:text-sm/[2] lg:text-lg/[2] leading-tight px-2">
                 Experience our services with a risk-free trial period, and enjoy
                 hassle-free cancellation at any time, no questions asked. Your
                 contentment and satisfaction are our highest priorities,
@@ -150,7 +150,7 @@ export default function Hero() {
           </div>
         </div>
       </section>
-      <section className="flex flex-col w-3/4 h-[50rem] sm:pt-0 mt-[-5rem] items-center justify-center">
+      <section className="flex flex-col w-3/4 h-[50rem] sm:pt-0 mt-[-15rem] items-center justify-center">
         <h1 className="text-3xl sm:text-xl md:text-3xl lg:text-4xl xl:text-5xl font-semibold mb-10 text-center ">
           Frequently Asked Questions (FAQ)
         </h1>

@@ -20,7 +20,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="bg-[#FEF6F3] !scroll-smooth">
+    <html lang="en" className=" !scroll-smooth">
       <body className={poppins.className}>
         <Nav />
         {children}
