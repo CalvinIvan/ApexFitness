@@ -116,7 +116,7 @@ export default function Hero() {
                   nutrition plan consistently, attend scheduled sessions with
                   our trainers, and adhere to our guidelines, you will see
                   noticeable improvements in your fitness and overall well-being
-                  within a specified period. If you don't experience the
+                  within a specified period. If you don&apos;t experience the
                   expected results, we will work with you and adjust your
                   program until you achieve your goals, at no extra cost. Your
                   success is our priority.
