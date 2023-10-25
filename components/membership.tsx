@@ -26,9 +26,9 @@ export default function Membership() {
         <h2 className="mb-10 text-center font-medium text-gray-600 sm:text-2xl md:text-3xl xl:text-5xl">
           Choose what fits your lifestyle goal!
         </h2>
-        <div className="mt-5 flex flex-row flex-wrap items-center justify-center gap-5 sm:flex-row">
+        <div className="mt-5 flex flex-col flex-wrap items-center justify-center gap-5 sm:flex-row">
           <div>
-            <Card className="h-[325px] max-w-[400px] rounded-lg bg-gradient-to-r from-rose-200 to-red-500/50 text-gray-600 transition hover:scale-105">
+            <Card className="h-[325px] max-w-[350px] rounded-lg bg-gradient-to-r from-rose-200 to-red-500/50 text-gray-600 transition hover:scale-105 sm:max-w-[400px]">
               <CardHeader className="flex gap-3">
                 <div className="flex w-full flex-col items-center justify-center">
                   <p className="text-md font-semibold">
@@ -56,7 +56,7 @@ export default function Membership() {
             </Card>
           </div>
           <div>
-            <Card className="h-[325px] max-w-[400px] rounded-lg bg-gradient-to-r from-rose-200 to-red-500/60 text-gray-700 transition hover:scale-105">
+            <Card className="h-[325px] max-w-[350px] rounded-lg bg-gradient-to-r from-rose-200 to-red-500/60 text-gray-700 transition hover:scale-105">
               <CardHeader className="flex gap-3">
                 <div className="flex w-full flex-col items-center justify-center ">
                   <p className="text-md font-semibold">
@@ -82,7 +82,7 @@ export default function Membership() {
             </Card>
           </div>
           <div>
-            <Card className="h-[325px] max-w-[400px] rounded-lg bg-gradient-to-r from-rose-400 to-red-500/80 text-gray-800 transition hover:scale-105">
+            <Card className="h-[325px] max-w-[350px] rounded-lg bg-gradient-to-r from-rose-400 to-red-500/80 text-gray-800 transition hover:scale-105">
               <CardHeader className="flex gap-3">
                 <div className="flex w-full flex-col items-center justify-center ">
                   <p className="text-md font-semibold">

@@ -15,7 +15,7 @@ const Nav = () => {
     <div>
       <CgMenuGridO
         onClick={handleNav}
-        className="fixed right-4 top-4 z-[99] text-4xl hover:cursor-pointer lg:hidden"
+        className="fixed right-20 top-0 z-[99] overflow-hidden text-4xl hover:cursor-pointer lg:hidden"
       />
       {nav ? (
         <div className="fixed top-0 z-20 flex h-screen w-full flex-col items-center justify-center bg-white/90 duration-200 ease-in-out ">

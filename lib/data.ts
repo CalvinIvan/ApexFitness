@@ -82,7 +82,7 @@ export const heroData = [
   },
   {
     title: group,
-    description: "Supportive and Motivational Environment:",
+    description: "Motivational Environment:",
     content: ` We foster a positive and supportive community where members
         encourage and motivate each other. Our gym is not just a place
         to work out; it's a space where you'll find camaraderie,
