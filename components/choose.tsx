@@ -4,7 +4,7 @@ import React from "react";
 type HeroProps = (typeof heroData)[number];
 function Pick({ title, description, content }: HeroProps) {
   return (
-    <section className="my-5 h-[25rem] w-[25rem] rounded-lg border border-opacity-20 p-5 pt-3 shadow-lg transition hover:scale-105">
+    <section className="my-5 h-[25rem] w-[22rem] rounded-lg border border-opacity-20 p-5 pt-3 shadow-lg transition hover:scale-105">
       <h3 className="py-2 text-3xl text-gray-500 ">
         <div className="mt-1 text-3xl"> {title}</div>
       </h3>
@@ -31,7 +31,7 @@ export default function Choose() {
         </h1>
         <div className="h-1 w-[55%] rounded-full bg-red-500 bg-opacity-50 pt-[0.025rem] sm:mt-5 sm:w-[95%]"></div>
 
-        <div className="mb-10 mt-5 flex w-[95vw] flex-col flex-wrap items-center justify-center gap-5 sm:mb-[10rem] sm:flex-row">
+        <div className="mb-10 mt-5 flex w-[90vw] flex-col flex-wrap items-center justify-center gap-5 sm:mb-[10rem] sm:flex-row">
           {heroData.map((card, index) => (
             <React.Fragment key={index}>
               <Pick {...card} />
