@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import { navLinks } from "@/lib/data";
 import Link from "next/link";
-import Banner from "@/images/Banner.png";
+import logo from "@/images/logo.png";
 import Image from "next/image";
 import { CgMenuGridO } from "react-icons/cg";
 
@@ -15,16 +15,16 @@ const Nav = () => {
     <div>
       <CgMenuGridO
         onClick={handleNav}
-        className="fixed top-4 right-4 z-[99] lg:hidden text-4xl hover:cursor-pointer"
+        className="fixed right-4 top-4 z-[99] text-4xl hover:cursor-pointer lg:hidden"
       />
       {nav ? (
-        <div className="fixed top-0 w-full h-screen bg-white/90 flex flex-col items-center justify-center z-20 ease-in-out duration-200 ">
+        <div className="fixed top-0 z-20 flex h-screen w-full flex-col items-center justify-center bg-white/90 duration-200 ease-in-out ">
           <ul className="flex flex-col items-center justify-center">
             {navLinks.map((link) => {
               return (
                 <li
                   key={link.name}
-                  className="w-full flex flex-col items-center justify-center bg-gray-100 shadow-gray-300 rounded-full shadow-lg m-2 p-4"
+                  className="m-2 flex w-full flex-col items-center justify-center rounded-full bg-gray-100 p-4 shadow-lg shadow-gray-300"
                 >
                   <Link href={link.link} onClick={handleNav}>
                     {link.name}
@@ -36,26 +36,30 @@ const Nav = () => {
         </div>
       ) : (
         <div className="relative z-[999] hidden lg:block">
-          <div>
-            <nav className="flex fixed top-0 h-16 w-[100vw] py-2 sm:h-[initial] justify-between bg-[#F8F8F8]">
-              <div className="pt-2">
-                <Image src={Banner} alt="Banner" width="225" height="225" />
-              </div>
-
-              <ul className="flex flex-row gap-[2.5rem] px-16 text-xl items-center justify-center">
-                {navLinks.map((link) => {
-                  return (
-                    <li
-                      key={link.name}
-                      className=" font-medium text-gray-700 hover:scale-105 hover:text-[#FD6343] hover:underline transition"
-                    >
-                      <Link href={link.link}>{link.name}</Link>
-                    </li>
-                  );
-                })}
-              </ul>
-            </nav>
-          </div>
+          <nav className="fixed top-0 flex w-[100vw] justify-between bg-gradient-to-r from-rose-400/90 to-red-500/90 py-4 sm:h-[initial]">
+            <a href="/">
+              <Image
+                src={logo}
+                alt="APEX Fitness"
+                width={50}
+                height={50}
+                priority={true}
+                className=" w-15 ml-5 rounded-full border-opacity-20 "
+              />
+            </a>
+            <ul className="flex flex-row items-center justify-center gap-[2.5rem] px-16 text-xl">
+              {navLinks.map((link) => {
+                return (
+                  <li
+                    key={link.name}
+                    className=" font-medium text-white transition hover:scale-105 hover:underline"
+                  >
+                    <Link href={link.link}>{link.name}</Link>
+                  </li>
+                );
+              })}
+            </ul>
+          </nav>
         </div>
       )}
     </div>
