@@ -15,7 +15,7 @@ const Nav = () => {
     <div>
       <CgMenuGridO
         onClick={handleNav}
-        className="fixed right-20 top-0 z-[99] overflow-hidden text-4xl hover:cursor-pointer lg:hidden"
+        className="fixed right-4 top-4 z-[99] overflow-hidden text-4xl hover:cursor-pointer lg:hidden"
       />
       {nav ? (
         <div className="fixed top-0 z-20 flex h-screen w-full flex-col items-center justify-center bg-white/90 duration-200 ease-in-out ">
@@ -36,7 +36,7 @@ const Nav = () => {
         </div>
       ) : (
         <div className="relative z-[999] hidden lg:block">
-          <nav className="fixed top-0 flex w-[100vw] justify-between bg-gradient-to-r from-rose-400/90 to-red-500/90 py-4 sm:h-[initial]">
+          <nav className="fixed top-0 flex w-full justify-between bg-gradient-to-r from-rose-400/90 to-red-500/90 py-4 sm:h-[initial]">
             <a href="/">
               <Image
                 src={logo}

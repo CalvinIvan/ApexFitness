@@ -5,10 +5,10 @@ import Link from "next/link";
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen w-full scroll-mt-[105rem]  bg-gradient-to-r from-rose-400 to-red-500 sm:items-center sm:justify-center">
-      <div className="relative mt-[5rem] flex flex-col sm:mt-[5rem] sm:flex-row">
-        <div className="flex flex-col items-center justify-center sm:ml-[2rem] sm:mt-[20rem] sm:w-1/2 sm:items-start md:ml-[5rem] md:mt-[15rem] lg:ml-[10rem]">
-          <h1 className="my-10 text-center text-5xl font-semibold text-white sm:text-left sm:text-5xl md:text-6xl lg:text-7xl xl:text-9xl">
+    <section className="relative min-h-screen w-full scroll-mt-[105rem] bg-gradient-to-r from-rose-400 to-red-500 sm:items-center sm:justify-center">
+      <div className="relative mt-[5rem] flex flex-col sm:mt-[5rem] sm:flex-row ">
+        <div className="flex flex-col items-center justify-center sm:ml-[2rem] sm:mt-[20rem] sm:w-1/2 sm:items-start md:ml-[5rem] md:mt-[15rem] lg:ml-[10rem] ">
+          <h1 className="my-10 text-center text-5xl font-semibold text-white sm:text-left sm:text-5xl md:text-6xl lg:text-7xl xl:text-9xl ">
             Surpass <br />
             Your Limits.
           </h1>

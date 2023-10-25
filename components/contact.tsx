@@ -4,7 +4,7 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="mt-[5rem] flex h-full w-full scroll-mt-[0.5rem] flex-col items-center justify-center sm:mb-[10rem] sm:mt-[5rem] sm:max-w-4xl sm:scroll-mt-[4rem]"
+      className="mt-[5rem] flex h-full w-[95vw] scroll-mt-[0.5rem] flex-col items-center justify-center sm:mb-[10rem] sm:mt-[5rem] sm:max-w-4xl sm:scroll-mt-[4rem]"
     >
       <h1 className="mb-[2.5rem] text-center text-3xl font-medium text-gray-700 sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl">
         Get in touch with us!

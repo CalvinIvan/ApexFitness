@@ -6,7 +6,7 @@ import Image from "next/image";
 
 export default function Classes() {
   return (
-    <section id="classes" className="mt-[5rem] w-[95vw] scroll-mt-[4rem]">
+    <section id="classes" className="mt-[5rem] w-[90vw] scroll-mt-[4rem]">
       <div className="flex flex-col items-center">
         <h1 className="mt-[2.5rem] text-center text-2xl font-medium text-gray-700 lg:text-4xl xl:text-5xl">
           Check out some of our{" "}
@@ -21,7 +21,7 @@ export default function Classes() {
           {classData.map((item) => (
             <Card
               key={item.title}
-              className="h-[30rem] w-[25rem] rounded-lg shadow-lg shadow-gray-300 transition hover:scale-105"
+              className="h-[30rem] w-[25rem] rounded-lg shadow-lg shadow-gray-300 transition hover:scale-105 sm:h-[30rem] sm:w-[25rem]"
             >
               <CardHeader className="mt-5 flex items-center justify-center">
                 <Image

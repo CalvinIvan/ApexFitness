@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function Convince() {
   return (
-    <section className="mx-5 mb-24 flex-col justify-center gap-10 sm:flex sm:flex-row lg:mb-0 lg:max-w-[75rem] ">
+    <section className="mx-5 mb-24 flex-col justify-center gap-10 sm:flex sm:flex-row lg:mb-0 lg:max-w-[75rem]">
       <div className="flex flex-col items-center">
         <h1 className="text-center text-3xl font-semibold text-gray-700 sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">
           Still not convinced?
@@ -16,7 +16,7 @@ export default function Convince() {
           <Image
             src={motivate}
             alt="Picture of the author"
-            className=" w-[auto] rounded-xl shadow-xl md:mt-24 md:h-[18rem] lg:mt-16 lg:h-[25rem]"
+            className=" w-[95vw] rounded-xl shadow-xl md:mt-24 md:h-[18rem] lg:mt-16 lg:h-[25rem]"
           />
           <div className="ml-5 mt-7 flex h-[25vw] w-[auto] sm:mt-6 lg:mt-28">
             <div className="p-4 ">
@@ -36,7 +36,7 @@ export default function Convince() {
             </div>
           </div>
         </div>
-        <div className="mt-[15rem] flex flex-col gap-x-5 sm:mt-5 sm:w-3/4 md:mb-[2rem] lg:mt-[5rem] lg:w-3/4">
+        <div className="mt-[25rem] flex flex-col gap-x-5 sm:mt-5 sm:w-3/4 md:mb-[2rem] lg:mt-[5rem] lg:w-3/4">
           <div className="flex flex-row">
             <div className="text-5xl">
               <TbTreadmill />

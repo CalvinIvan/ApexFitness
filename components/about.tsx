@@ -7,7 +7,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="mb-24 flex flex-col items-center justify-center"
+      className="mb-24 flex w-[95vw] flex-col items-center justify-center"
     >
       <h1 className="mt-[5rem] text-start text-3xl font-semibold text-gray-700 md:text-3xl lg:text-4xl xl:text-6xl">
         About Us

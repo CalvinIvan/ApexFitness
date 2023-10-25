@@ -8,7 +8,7 @@ import Membership from "@/components/membership";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center">
+    <main className="flex min-h-screen w-full flex-col items-center justify-center overflow-hidden">
       <Hero />
       <About />
       <Choose />
