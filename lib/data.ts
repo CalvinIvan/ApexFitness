@@ -1,10 +1,10 @@
-import Cardio from "@/images/cardio.png";
-import Strength from "@/images/strength.png";
-import Yoga from "@/images/Yoga.png";
-import Cycling from "@/images/cycling.png";
-import Swim from "@/images/Swim.png";
-import Zumba from "@/images/zumba.png";
-import HIIT from "@/images/HIIT.png";
+import Cardio from "@/public/cardio.png";
+import Strength from "@/public/strength.png";
+import Yoga from "@/public/Yoga.png";
+import Cycling from "@/public/cycling.png";
+import Swim from "@/public/Swim.png";
+import Zumba from "@/public/zumba.png";
+import HIIT from "@/public/HIIT.png";
 import { GrFavorite, GrGroup, GrRun, GrSchedules } from "react-icons/gr";
 import React from "react";
 

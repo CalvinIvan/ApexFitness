@@ -1,6 +1,6 @@
 import React from "react";
 import { TbTreadmill, TbFreeRights } from "react-icons/tb";
-import motivate from "@/images/Convince.png";
+import motivate from "@/public/Convince.png";
 import Image from "next/image";
 
 export default function Convince() {

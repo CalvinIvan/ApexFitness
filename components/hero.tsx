@@ -1,5 +1,5 @@
 import React from "react";
-import Runner from "@/images/runner.png";
+import Runner from "@/public/runner.png";
 import Image from "next/image";
 import Link from "next/link";
 

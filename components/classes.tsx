@@ -1,7 +1,6 @@
 "use client";
 import { classData } from "@/lib/data";
 import { Card, CardHeader, CardBody } from "@nextui-org/react";
-import { Link } from "lucide-react";
 import React from "react";
 import Image from "next/image";
 
