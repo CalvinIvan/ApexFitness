@@ -33,8 +33,5 @@
     "tailwindcss-rtl": "^0.9.0",
     "typescript": "^5.0.2",
     "vite": "^4.0.3"
-  },
-  "resolutions": {
-    "vite": "^4.0.3"
   }
 }
