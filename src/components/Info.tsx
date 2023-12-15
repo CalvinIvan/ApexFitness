@@ -66,7 +66,7 @@ const Info = () => {
             <input
               className="outline-none ml-5 w-1/2"
               type="text"
-              placeholder="Enter you mail .."
+              placeholder="Enter your email"
             />
             <div>
               <button className="flex items-center py-[17px] px-[26px] rounded-[8px] font-semibold text-md md:text-lg text-white bg-rose-500 duration-500 hover:bg-[#f88eb7] whitespace-nowrap flex-1 w-fit gap-5">
