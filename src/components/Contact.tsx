@@ -13,7 +13,7 @@ const Contact = () => {
           </p>
         </div>
         <div className="lg:col-span-6 flex flex-col items-center">
-          <div style={{ width: "50%" }}>
+          <div className="w-4/5">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2886.698440835359!2d-79.38327432416894!3d43.65444205235105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b34cb510746bd%3A0x8b89147b8cbbc837!2sCF%20Toronto%20Eaton%20Centre!5e0!3m2!1sen!2sca!4v1702603442662!5m2!1sen!2sca"
               width="100%"
@@ -23,7 +23,7 @@ const Contact = () => {
         </div>
         <div className="lg:col-span-6 flex flex-col items-center">
           {/* FORM */}
-          <div className="lg:col-span-6 w-1/2 my-5">
+          <div className="lg:col-span-6 w-4/5 my-5">
             <form>
               <div className="grid lg:grid-cols-12 lg:gap-5">
                 <div className="lg:col-span-6 mb-10">
